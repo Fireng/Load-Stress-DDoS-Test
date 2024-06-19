@@ -1,6 +1,6 @@
 # Load-Stress-DDoS-Test
 
-Описаны методы реализации, а также примеры графиков для проведения наггрузочного тестирования "Отказ в обслуживании" (DDoS-атака)
+Описаны методы реализации, а также примеры графиков для проведения нагрузочного тестирования "Отказ в обслуживании" (DDoS-атака)
 
 #### Тест-кейсы
 1.1. [TCP SYN FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/TCP_SYN/README.md)
@@ -9,7 +9,7 @@
 
 1.3. [DNS FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/DNS_FLOOD/README.md)
 
-#### Графики
+#### Мониторинг
 2.1 
 #### Используемые инструменты автоматизации
 3.1 Ansible
