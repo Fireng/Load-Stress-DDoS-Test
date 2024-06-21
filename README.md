@@ -14,6 +14,6 @@
 1.5. [ICMP FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/ICMP_FLOOD/README.md)
 
 #### Мониторинг
-2.1 
+2.1 [BlackBox](https://github.com/prometheus/blackbox_exporter)
 #### Используемые инструменты автоматизации
 3.1 Ansible
