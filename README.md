@@ -9,6 +9,10 @@
 
 1.3. [DNS FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/DNS_FLOOD/README.md)
 
+1.4. [IP FRAG](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/IP_FRAG/README.md)
+
+1.5. [ICMP FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/ICMP_FLOOD/README.md)
+
 #### Мониторинг
 2.1 
 #### Используемые инструменты автоматизации
