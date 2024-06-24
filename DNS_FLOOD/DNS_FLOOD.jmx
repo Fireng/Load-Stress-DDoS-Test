@@ -69,12 +69,12 @@
         </TransactionController>
         <hashTree>
           <kg.apc.jmeter.samplers.UDPSampler guiclass="kg.apc.jmeter.samplers.UDPSamplerGui" testclass="kg.apc.jmeter.samplers.UDPSampler" testname="DNS Flood Req" enabled="true">
-            <stringProp name="hostname">8.8.8.8</stringProp>
+            <stringProp name="hostname">${__P(dns_server)}</stringProp>
             <stringProp name="port">53</stringProp>
             <boolProp name="waitresponse">true</boolProp>
             <boolProp name="closechannel">false</boolProp>
             <stringProp name="timeout">1000</stringProp>
-            <stringProp name="data">${__P(dns_name)}. A IN</stringProp>
+            <stringProp name="data">${__P(dns_domain)}. A IN</stringProp>
             <stringProp name="encodeclass">kg.apc.jmeter.samplers.DNSJavaDecoder</stringProp>
             <stringProp name="bind_address"></stringProp>
             <stringProp name="bind_port"></stringProp>
@@ -105,12 +105,12 @@
         </TransactionController>
         <hashTree>
           <kg.apc.jmeter.samplers.UDPSampler guiclass="kg.apc.jmeter.samplers.UDPSamplerGui" testclass="kg.apc.jmeter.samplers.UDPSampler" testname="DNS Flood Req" enabled="true">
-            <stringProp name="hostname">8.8.8.8</stringProp>
+            <stringProp name="hostname">${__P(dns_server)}</stringProp>
             <stringProp name="port">53</stringProp>
             <boolProp name="waitresponse">true</boolProp>
             <boolProp name="closechannel">false</boolProp>
             <stringProp name="timeout">1000</stringProp>
-            <stringProp name="data">${__P(dns_name)}. A IN</stringProp>
+            <stringProp name="data">${__P(dns_domain)}. A IN</stringProp>
             <stringProp name="encodeclass">kg.apc.jmeter.samplers.DNSJavaDecoder</stringProp>
             <stringProp name="bind_address"></stringProp>
             <stringProp name="bind_port"></stringProp>
