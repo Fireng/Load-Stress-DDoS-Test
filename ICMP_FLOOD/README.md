@@ -4,3 +4,5 @@
 ```
 ping -f -l ${__P(byte_count)} ${__(target_ip)}
 ```
+
+![icmp_flood](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/ICMP_Exmp.png)
