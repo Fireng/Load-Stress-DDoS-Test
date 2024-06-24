@@ -6,10 +6,10 @@
 
 Вернитесь в Wireshark, чтобы просмотреть запросы NTP и ответы на них.
 Скопируйте данные шестнадцатеричного потока из запроса NTP и вставьте их в запрос JMeter UDP. На рисунке ниже представлен запрос NTP для time.windows.com.
-![w32tm_example]((https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/NTP_FLOOD_Exmp.png)
+![ntp_flood_code](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/NTP_FLOOD_Exmp.png)
 
 Сформируйте запрос JMeter UDP 
-https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/NTP_Jmeter.png
+![ntp_jmeter](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/NTP_Jmeter.png)
 
 Если вы продолжите выполнять запросы NTP, вы увидите, что данные ответа меняются. Это потому, что в каждом экземпляре меняется текущая временная метка. Все ответы будут даны в формате UTC.
 
