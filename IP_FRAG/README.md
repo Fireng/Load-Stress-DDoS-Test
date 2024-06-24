@@ -28,5 +28,5 @@ send(fragments)
 nmap -sS -p 80 -f 192.168.1.1
 ```
 
-В Jmeter описан метод с использованием nmap
+В [jmeter](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/IP_FRAG/IP_FRAG.jmx) описан метод с использованием nmap
 ![IP Frag Attack example img](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/IP_FRAG_Exmp.png)
