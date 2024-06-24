@@ -13,6 +13,8 @@
 
 1.5. [ICMP FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/ICMP_FLOOD/README.md)
 
+1.6. [NTP FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/NTP_FLOOD)
+
 #### Мониторинг
 2.1 [BlackBox](https://github.com/prometheus/blackbox_exporter)
 #### Используемые инструменты автоматизации
