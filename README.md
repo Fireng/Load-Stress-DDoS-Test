@@ -18,4 +18,4 @@
 #### Мониторинг
 2.1 [BlackBox](https://github.com/prometheus/blackbox_exporter)
 #### Используемые инструменты автоматизации
-3.1 Ansible
+3.1 [Ansible](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/ansible)
