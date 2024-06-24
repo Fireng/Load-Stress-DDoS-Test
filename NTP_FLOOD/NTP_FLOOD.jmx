@@ -63,26 +63,26 @@
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="DNS Flood" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="NTP Flood" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
-          <kg.apc.jmeter.samplers.UDPSampler guiclass="kg.apc.jmeter.samplers.UDPSamplerGui" testclass="kg.apc.jmeter.samplers.UDPSampler" testname="DNS Flood Req" enabled="true">
-            <stringProp name="hostname">8.8.8.8</stringProp>
-            <stringProp name="port">53</stringProp>
+          <kg.apc.jmeter.samplers.UDPSampler guiclass="kg.apc.jmeter.samplers.UDPSamplerGui" testclass="kg.apc.jmeter.samplers.UDPSampler" testname="NTP Flood Req" enabled="true">
+            <stringProp name="hostname">time.cloudflare.com</stringProp>
+            <stringProp name="port">123</stringProp>
             <boolProp name="waitresponse">true</boolProp>
             <boolProp name="closechannel">false</boolProp>
             <stringProp name="timeout">1000</stringProp>
-            <stringProp name="data">${__P(dns_name)}. A IN</stringProp>
-            <stringProp name="encodeclass">kg.apc.jmeter.samplers.DNSJavaDecoder</stringProp>
+            <stringProp name="data">0b000000000000000000000000000000000000000000000000000000000000000000000000000000e9997818bfb6134c</stringProp>
+            <stringProp name="encodeclass">kg.apc.jmeter.samplers.HexStringUDPDecoder</stringProp>
             <stringProp name="bind_address"></stringProp>
             <stringProp name="bind_port"></stringProp>
           </kg.apc.jmeter.samplers.UDPSampler>
           <hashTree/>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="UTG - NTP_FLOOD" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="UTG - NTP_FLOOD" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1730755319">
             <stringProp name="-1494017988">${__P(number_of_threads)}</stringProp>
@@ -99,19 +99,19 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="DNS Flood" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="NTP Flood" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
-          <kg.apc.jmeter.samplers.UDPSampler guiclass="kg.apc.jmeter.samplers.UDPSamplerGui" testclass="kg.apc.jmeter.samplers.UDPSampler" testname="DNS Flood Req" enabled="true">
-            <stringProp name="hostname">8.8.8.8</stringProp>
-            <stringProp name="port">53</stringProp>
+          <kg.apc.jmeter.samplers.UDPSampler guiclass="kg.apc.jmeter.samplers.UDPSamplerGui" testclass="kg.apc.jmeter.samplers.UDPSampler" testname="NTP Flood Req" enabled="true">
+            <stringProp name="hostname">time.cloudflare.com</stringProp>
+            <stringProp name="port">123</stringProp>
             <boolProp name="waitresponse">true</boolProp>
             <boolProp name="closechannel">false</boolProp>
             <stringProp name="timeout">1000</stringProp>
-            <stringProp name="data">${__P(dns_name)}. A IN</stringProp>
-            <stringProp name="encodeclass">kg.apc.jmeter.samplers.DNSJavaDecoder</stringProp>
+            <stringProp name="data">0b000000000000000000000000000000000000000000000000000000000000000000000000000000e9997818bfb6134c</stringProp>
+            <stringProp name="encodeclass">kg.apc.jmeter.samplers.HexStringUDPDecoder</stringProp>
             <stringProp name="bind_address"></stringProp>
             <stringProp name="bind_port"></stringProp>
           </kg.apc.jmeter.samplers.UDPSampler>
