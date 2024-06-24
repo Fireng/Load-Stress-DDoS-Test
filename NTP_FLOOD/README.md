@@ -1,6 +1,7 @@
 # NTP FLOOD
 Один из вариантов UDP-флуда, DoS-атака на серверы, использующие протокол NTP (Network Time Protocol), применяемый для синхронизации внутренних часов компьютеров. Чрезмерная нагрузка на NTP-сервер создается путем отправки множества поддельных NTP-запросов с большого количества разных IP-адресов.
 
+#### Метод реализации
 Запустите командную строку и введите **w32tm /stripchart /computer:${your_domain}** и нажмите Enter. Чтобы остановить отображение времени, нажмите Ctrl + C.
 ![w32tm_example](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/w32tm_check_time.png)
 
