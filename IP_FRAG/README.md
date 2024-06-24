@@ -27,8 +27,6 @@ send(fragments)
 ```
 nmap -sS -p 80 -f 192.168.1.1
 ```
-///
-При использовании hping3 или scapy вы не сможете полностью выставить шаг нагрузки(pacing), что может повлиять на результаты нагрузки. Если нет вариантов установить из-за серьезной политики безопасности, то можно реализовать через [jmeter]()///
 
-
+В Jmeter описан метод с использованием nmap
 ![IP Frag Attack example img](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/IP_FRAG_Exmp.png)
