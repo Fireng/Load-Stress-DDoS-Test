@@ -1,0 +1,27 @@
+- name: Copy File
+  hosts: servers
+  tasks:
+   - name: Copy node_exporter.service in host
+     copy:
+        src: /root/ansible_quickstart/node_exporter.service
+        dest: /lib/systemd/system/
+
+   - name: Copy node_exporter in host
+     copy:
+        src: /root/ansible_quickstart/node_exporter-1.7.0.linux-amd64.tar.gz
+        dest: /usr/local/bin/
+
+   - name: Node_exporter_tar
+     shell: tar xvfz /usr/local/bin/node_exporter-1.7.0.linux-amd64.tar.gz
+
+   - name: move node_exporter
+     shell: mv /root/node_exporter-1.7.0.linux-amd64 /usr/local/bin/
+
+   - name: Node_exporter_chmod
+     shell: chmod 0755 -R /usr/local/bin/node_exporter-1.7.0.linux-amd64
+
+   - name: Service reboot
+     shell: systemctl daemon-reload
+
+   - name: Service start
+     shell: systemctl restart node_exporter.service

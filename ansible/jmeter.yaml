@@ -1,0 +1,7 @@
+- name: Jmeter Copy
+  hosts: servers
+  tasks:
+   - name: Copy Jmeter in host
+     copy:
+        src: /root/ansible_quickstart/jmeter-5.5
+        dest: /usr/local/bin/
