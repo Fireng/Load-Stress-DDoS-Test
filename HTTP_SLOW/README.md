@@ -12,7 +12,7 @@
 
 Установка и подготовка:
 ```
-git clone https://github.com/gkbrk/slowloris.git).
+git clone https://github.com/gkbrk/slowloris.git
 ```
 Запуск:
 ```
