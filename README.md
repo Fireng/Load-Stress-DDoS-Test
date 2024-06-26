@@ -17,18 +17,18 @@
 
 1.6. [NTP FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/NTP_FLOOD)
 
+131313
 
+12321313
 
+1231313
 
+12313
 
+123
+13123
 
-
-
-
-
-
-
-
+12313
 
 #### Мониторинг
 2.1 [BlackBox](https://github.com/prometheus/blackbox_exporter)
