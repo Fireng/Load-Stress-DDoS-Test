@@ -1,4 +1,4 @@
-# Ansible
+# [Ansible](https://docs.ansible.com/ansible/latest/getting_started/index.html)
 Поможет нам для передачи команд множеству серверов
 
 Ansible по умолчанию включает проверку ключей хоста. 
