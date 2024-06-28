@@ -17,6 +17,8 @@
 
 1.6. [NTP FLOOD](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/NTP_FLOOD)
 
+1.7. [HTTP_SLOW](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/HTTP_SLOW)
+
 #### Мониторинг
 2.1 [BlackBox](https://github.com/prometheus/blackbox_exporter)
 #### Используемые инструменты автоматизации
