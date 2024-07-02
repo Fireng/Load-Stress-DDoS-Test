@@ -20,6 +20,6 @@
 1.7. [HTTP_SLOW](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/HTTP_SLOW)
 
 #### Мониторинг
-2.1 [ntopng]([https://github.com/prometheus/blackbox_exporter](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/monitoring))
+2.1 [ntopng](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/monitoring)
 #### Используемые инструменты автоматизации
 3.1 [Ansible](https://github.com/Fireng/Load-Stress-DDoS-Test/tree/main/ansible)
