@@ -22,7 +22,7 @@ nano /etc/ntopng/ntopng.conf
 ```
 
 Далее просто переходим на сервис, вводим admin/admin и меняем пароль
-![ntopng](https://github.com/Fireng/Load-Stress-DDoS-Test/assets/images/ntopng.png)
+![ntopng](https://github.com/Fireng/Load-Stress-DDoS-Test/blob/main/assets/images/ntopng.png)
 
 
 
