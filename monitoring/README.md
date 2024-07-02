@@ -1,4 +1,4 @@
-![image](https://github.com/Fireng/Load-Stress-DDoS-Test/assets/18121589/572c50f5-a4c7-4d96-b3e3-28469d1ade14)# Мониторинг
+# Мониторинг
 
 Для отладки процессов использовался [Wireshark](https://www.wireshark.org/).
 Wireshark не подходит для полноценного мониторинга сервера при проведении НТ "Отказ в обслуживании", так как 
