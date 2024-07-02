@@ -82,7 +82,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Argument">
                   <stringProp name="Argument.name"></stringProp>
-                  <stringProp name="Argument.value">ping -f -l ${__P(byte_count)} ${__(target_ip)}</stringProp>
+                  <stringProp name="Argument.value">ping -f -l ${__P(byte_count)} ${__P(target_ip)}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -130,7 +130,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Argument">
                   <stringProp name="Argument.name"></stringProp>
-                  <stringProp name="Argument.value">ping -f -l ${__P(byte_count)} ${__(target_ip)}</stringProp>
+                  <stringProp name="Argument.value">ping -f -l ${__P(byte_count)} ${__P(target_ip)}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>

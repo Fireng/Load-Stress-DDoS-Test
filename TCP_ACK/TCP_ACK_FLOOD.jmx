@@ -70,13 +70,13 @@
         <hashTree>
           <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="TCP ACK" enabled="true">
             <stringProp name="TCPSampler.classname">TCPClientImpl</stringProp>
-            <stringProp name="TCPSampler.server">45.87.153.208</stringProp>
+            <stringProp name="TCPSampler.server">${__P(target_ip)}</stringProp>
             <boolProp name="TCPSampler.reUseConnection">true</boolProp>
-            <stringProp name="TCPSampler.port">8000</stringProp>
+            <stringProp name="TCPSampler.port">${__P(target_port)}</stringProp>
             <boolProp name="TCPSampler.nodelay">false</boolProp>
             <stringProp name="TCPSampler.timeout">3000</stringProp>
             <stringProp name="TCPSampler.ctimeout">3000</stringProp>
-            <stringProp name="TCPSampler.request">589801bbe1929d0a7a8b529e501003ffc6880000</stringProp>
+            <stringProp name="TCPSampler.request"></stringProp>
             <boolProp name="TCPSampler.closeConnection">false</boolProp>
             <stringProp name="ConfigTestElement.username"></stringProp>
             <stringProp name="ConfigTestElement.password"></stringProp>
@@ -111,7 +111,7 @@
             <boolProp name="TCPSampler.nodelay">false</boolProp>
             <stringProp name="TCPSampler.timeout">3000</stringProp>
             <stringProp name="TCPSampler.ctimeout">3000</stringProp>
-            <stringProp name="TCPSampler.request">589801bbe1929d0a7a8b529e501003ffc6880000</stringProp>
+            <stringProp name="TCPSampler.request">580804bbe1929d0a7a8b529e501003afc6880000</stringProp>
             <boolProp name="TCPSampler.closeConnection">false</boolProp>
             <stringProp name="ConfigTestElement.username"></stringProp>
             <stringProp name="ConfigTestElement.password"></stringProp>
@@ -143,13 +143,13 @@
         <hashTree>
           <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="TCP ACK" enabled="true">
             <stringProp name="TCPSampler.classname">TCPClientImpl</stringProp>
-            <stringProp name="TCPSampler.server">45.87.153.208</stringProp>
+            <stringProp name="TCPSampler.server">${__P(target_ip)}</stringProp>
             <boolProp name="TCPSampler.reUseConnection">true</boolProp>
-            <stringProp name="TCPSampler.port">8000</stringProp>
+            <stringProp name="TCPSampler.port">${__P(target_port)}</stringProp>
             <boolProp name="TCPSampler.nodelay">false</boolProp>
             <stringProp name="TCPSampler.timeout">3000</stringProp>
             <stringProp name="TCPSampler.ctimeout">3000</stringProp>
-            <stringProp name="TCPSampler.request">589801bbe1929d0a7a8b529e501003ffc6880000</stringProp>
+            <stringProp name="TCPSampler.request">580804bbe1929d0a7a8b529e501003afc6880000</stringProp>
             <boolProp name="TCPSampler.closeConnection">false</boolProp>
             <stringProp name="ConfigTestElement.username"></stringProp>
             <stringProp name="ConfigTestElement.password"></stringProp>
